@@ -35,7 +35,7 @@ def main():
     service = build('admin', 'reports_v1', credentials=creds)
 
     # Call the Admin SDK Reports API
-    print('Getting all Device activity logs')
+    print('Getting all Drive activity logs')
 
     drive_logs = []
 
